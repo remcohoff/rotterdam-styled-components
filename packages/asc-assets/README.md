@@ -10,7 +10,7 @@ This is a standalone package that contains:
 Add this package to your project by running:
 
 ```bash
-npm install @amsterdam/asc-assets
+npm install @rotterdam/asc-assets
 ```
 
 ## Basic Usage
@@ -18,7 +18,7 @@ npm install @amsterdam/asc-assets
 ### Icons
 
 ```jsx
-import { IconName } from '@amsterdam/asc-assets'
+import { IconName } from '@rotterdam/asc-assets'
 
 return <IconName />
 ```
@@ -57,7 +57,7 @@ new CopyWebpackPlugin({
 And make sure to import the CSS file in your stylesheet:
 
 ```scss
-@import '~@amsterdam/asc-assets/static/fonts/fonts.css';
+@import '~@rotterdam/asc-assets/static/fonts/fonts.css';
 ```
 
 ## Build Project

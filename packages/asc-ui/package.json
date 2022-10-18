@@ -1,18 +1,15 @@
 {
-  "name": "@amsterdam/asc-ui",
-  "description": "React UI Components that developers at de Gemeente Amsterdam can reuse in multiple projects",
+  "name": "@remcohoff/asc-ui",
+  "description": "React UI Components that developers at de Gemeente Rotterdam can reuse in multiple projects",
   "license": "MPL-2.0",
-  "author": "Gemeente Amsterdam",
-  "homepage": "https://github.com/Amsterdam/amsterdam-styled-components#readme",
+  "author": "Remco Hoff, Gemeente Amsterdam",
+  "homepage": "https://github.com/remcohoff/rotterdam-styled-components#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amsterdam/amsterdam-styled-components.git",
+    "url": "https://github.com/remcohoff/rotterdam-styled-components",
     "directory": "packages/asc-ui"
   },
-  "bugs": {
-    "url": "https://github.com/Amsterdam/amsterdam-styled-components/issues"
-  },
-  "version": "0.37.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -22,7 +19,7 @@
   "sideEffects": false,
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@amsterdam/asc-assets": "^0.37.0",
+    "@remcohoff/asc-assets": "^0.1.0",
     "classnames": "^2.3.1",
     "deepmerge": "^4.2.2",
     "polished": "^4.2.2",
@@ -38,6 +35,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "9270794e2e1bd86f494922dfd2a6beb5ecd3e193"
+  }
 }
