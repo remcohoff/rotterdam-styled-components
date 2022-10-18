@@ -2,8 +2,8 @@
   "name": "stories",
   "private": true,
   "license": "MPL-2.0",
-  "version": "0.37.0",
-  "author": "Gemeente Amsterdam",
+  "version": "0.1.0",
+  "author": "Remco Hoff, Gemeente Amsterdam",
   "homepage": "https://github.com/Amsterdam/amsterdam-styled-components#readme",
   "repository": {
     "type": "git",
@@ -26,8 +26,8 @@
     "eslint-plugin-mdx": "^1.17.0"
   },
   "dependencies": {
-    "@amsterdam/asc-assets": "^0.37.0",
-    "@amsterdam/asc-ui": "^0.37.0",
+    "@remcohoff/asc-assets": "^0.1.0",
+    "@remcohoff/asc-ui": "^0.1.0",
     "react": "^17.0.2",
     "styled-components": "^5.3.0"
   }
